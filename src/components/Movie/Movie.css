@@ -1,0 +1,34 @@
+.Movie {
+  /* padding: 5px; */
+  margin: auto;
+  background-color: rgb(226, 225, 225);
+  width: 225px;
+  height: auto;
+  overflow-x: hidden;
+  border-radius: 0 0 5px 5px;
+}
+.poster-image {
+  height: 300px;
+  width: 225px;
+  padding: 0;
+  /* width: fit-content; */
+}
+.movie-desc-container {
+  /* box-shadow: inset; */
+  overflow-x: hidden;
+  width: inherit;
+}
+.movie-desc-container .movie-title {
+  white-space: normal;
+}
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+  .Movie {
+    width: 170px;
+  }
+  .poster-image {
+    height: 280px;
+    width: 170px;
+    padding: 0;
+    /* width: fit-content; */
+  }
+}
