@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className="xl-nav">
         <div className="xl-nav-container">
           <div className="xl-nav-logo-container">
-            <h4>Movies Dekho</h4>
+            <h3>Movies Dekho</h3>
           </div>
           <ul className="xl-nav-links-container">
             <li className="xl-li-navlink">
@@ -22,7 +22,7 @@ export default function Navbar() {
       <div className="sm-nav">
         <div className="sm-nav-container">
           <div className="sm-nav-logo-container">
-            <h4>Movies Dekho</h4>
+            <h3>Movies Dekho</h3>
           </div>
           <div className="hamburger-container">
             <div className="hamburger-btn"></div>

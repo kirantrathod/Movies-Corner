@@ -10,6 +10,8 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding-left: 18px;
+  padding-right: 10px;
 }
 .xl-nav-container:only-child {
   flex-grow: 1;
@@ -22,7 +24,8 @@
 }
 .btn {
   background-color: cornflowerblue;
-  color: #000000;
+  color: #ffffff;
+  border-radius: 2px;
   padding: 5px;
   margin: 5px;
   border: 0;
@@ -32,3 +35,11 @@
 .sm-nav {
   display: none;
 }
+/* @media only screen and (min-width: 0px) and (max-width: 480px) {
+  .sm-nav {
+    display: block;
+  }
+  .Navbar .xl-nav {
+    display: none;
+  }
+} */
